@@ -1,9 +1,9 @@
 import React from 'react';
 import { Text, AppRegistry } from 'react-native';
-import Header from './src/components/header';
+
 
 const App = () => (
-   <Header />
+    <Text>Some text</Text>
 );
 
 AppRegistry.registerComponent('albums', () => App);
